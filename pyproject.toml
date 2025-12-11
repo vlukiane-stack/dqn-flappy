@@ -1,0 +1,16 @@
+[project]
+name = "dqn_pytorch_flappybird"
+version = "0.1.0"
+description = "DQN implementation with PyTorch and Flappy Bird"
+requires-python = ">=3.11"
+
+dependencies = [
+    "torch",
+    "torchvision",
+    "tensorflow",
+    "flappy-bird-gymnasium",
+    "gymnasium",
+    "numpy",
+    "matplotlib",
+    "pyyaml"
+]
