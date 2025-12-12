@@ -1,0 +1,11 @@
+gamma: 0.99
+epsilon_start: 1.0
+epsilon_final: 0.01
+epsilon_decay: 30000
+learning_rate: 0.00025
+batch_size: 32
+target_update_frequency: 1000
+memory_size: 50000
+env: FlappyBird-v0
+use_lidar: false
+seed: 42
